@@ -6,3 +6,13 @@ def initCounter(init = 0):
  
 def average(array):
   return sum(array) / len(array)
+  
+def factorial(end):
+  res = 1
+  for i in range(1, end):
+    res *= i
+  return res
+  
+  
+   
+  
